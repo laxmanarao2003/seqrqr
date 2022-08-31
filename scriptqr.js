@@ -5,7 +5,7 @@ let generate=()=>
     let img=document.getElementById("img");
     if(inp1.length!=0)
     {
-        img.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example"+inp1;
+        img.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+inp1;
         dwn_link.href=img.src;
     }
     else
